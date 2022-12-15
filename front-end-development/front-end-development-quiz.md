@@ -317,7 +317,11 @@ for (i = 0; i > max; i++) {
 - [ ] parseint("6");
 
 #### Q33. How can you rewrite this function using arrow function syntax?
-
+```
+function product(x, y) {
+  return x * y;
+}
+```
 - [ ] let product => (x,y) { <br /> x \* y; <br />}
 - [x] let product = (x,y) => x\*y;
 - [ ] let product => x\*y;
